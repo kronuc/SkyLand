@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkyLand", "SkyLand\SkyLand.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SL.TestConsoleClient", "SL.TestConsoleClient\SL.TestConsoleClient.csproj", "{233A8218-87C0-4CB8-AB97-DFB67DF0983B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SL.Time", "SL.Time\SL.Time.csproj", "{14499402-C0D9-40BA-A7D6-23F7E1595E1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{233A8218-87C0-4CB8-AB97-DFB67DF0983B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{233A8218-87C0-4CB8-AB97-DFB67DF0983B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{233A8218-87C0-4CB8-AB97-DFB67DF0983B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14499402-C0D9-40BA-A7D6-23F7E1595E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14499402-C0D9-40BA-A7D6-23F7E1595E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14499402-C0D9-40BA-A7D6-23F7E1595E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14499402-C0D9-40BA-A7D6-23F7E1595E1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
