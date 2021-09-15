@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SL.TestConsoleClient;
+using System;
 
 namespace SkyLand
 {
@@ -6,6 +7,8 @@ namespace SkyLand
     {
         static void Main(string[] args)
         {
+            ConsoleClient cl = new ConsoleClient();
+            cl.Start();
         }
     }
 }
