@@ -8,5 +8,6 @@ namespace SL.Model
 {
     public class GameSesionSettings
     {
+
     }
 }

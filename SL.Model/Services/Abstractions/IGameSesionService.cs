@@ -9,9 +9,12 @@ namespace SL.Model.Services.Abstractions
     public interface IGameSesionService<TKey>
     {
         TKey CreateGameSesion(GameSesionSettings settings);
+        TKey CreateGameSesion();
         List<TKey> GetListOfSessionAvailableForLoading();
-        bool CanLoadSesion(TKey id);
+        bool CanLoadGameSesion(TKey id);
         void LoadGameSession(TKey id);
         void SaveGameSession(TKey id);
+        void DeleteSavedGameSesion(TKey id);
+        ServicesFactory GetServicesForGameSession(TKey id);
     }
 }
