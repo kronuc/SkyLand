@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SL.Model.DTO
+namespace SL.Model.DT
 {
     public class CountryDTO<TKey>
     {

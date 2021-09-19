@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SL.Model.DTO
+namespace SL.Model.DT
 {
-    public class GroundBattleDTO<TKey>
+    public class IslandSiegeDT<TKey>
     {
         public TKey Id { get; set; }
         public TKey IslandId { get; set; }

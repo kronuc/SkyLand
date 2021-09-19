@@ -5,10 +5,10 @@ namespace SL.Model.Services.Abstractions
 {
     public sealed class ServicesFactory
     {
-        GameSession<int> _gameSession;
+        GameSessionData<int> _gameSession;
         private ITimeService _timeService;
 
-        internal ServicesFactory(GameSession<int> gameSession)
+        internal ServicesFactory(GameSessionData<int> gameSession)
         {
             _gameSession = gameSession;
         }
