@@ -1,4 +1,6 @@
-﻿using SL.Model.Services.Abstractions;
+﻿using SL.Model.ObjectModel;
+using SL.Model.ObjectModel.Entities;
+using SL.Model.Services.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +17,7 @@ namespace SL.Model
             Settings = settings;
         }
 
+        public GameData<TKey> GameData { get; private set; }
         internal TKey Id { get; private set; }
         internal ServicesFactory ServicesFactory { get; private set; }
         internal GameSesionSettings Settings { get; set; }

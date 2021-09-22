@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SL.Model.ObjectModel
+namespace SL.Model.ObjectModel.Entities.DiplomatiocRelationEntity
 {
     public class DiplomaticRelation<TKey>
     {
